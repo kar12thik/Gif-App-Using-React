@@ -1,11 +1,16 @@
 import React from "react";
 import "./styles.css";
+import Random from "./components/Random_V1";
+// import Tag from "./components/Tag_V1";
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+    <div>
+      <h1>Random Gif Application</h1>
+      <div className="main-container">
+        <Random />
+        {/* <Tag /> */}
+      </div>
     </div>
   );
 }
